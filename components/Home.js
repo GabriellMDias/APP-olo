@@ -32,7 +32,7 @@ function telaConfig(props){
 
 
 
-export default App = ()=>{
+export default function App(){
   return(
     <NavigationContainer independent={true}>
       <Tab.Navigator>

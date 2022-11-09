@@ -13,7 +13,7 @@ function telaLogin(props){
       <Text>
         Tela Login
       </Text>
-      <TextInput placeholder="E-mail1111" style={{backgroundColor: "gray", borderWidth: 2, margin: 10}}/>
+      <TextInput placeholder="E-mail" style={{backgroundColor: "gray", borderWidth: 2, margin: 10}}/>
       <TextInput placeholder="Senha" style={{backgroundColor: "gray", borderWidth: 2, margin: 10}}/>
       <Button
       title="Entrar"
@@ -38,7 +38,7 @@ function telaCadastro(props){
   )
 }
 
-export default App = () => {
+export default function App(){
   return(
     <NavigationContainer>
     <Pilha.Navigator>
@@ -49,7 +49,6 @@ export default App = () => {
       <Pilha.Screen
       name="telaHome" component={Home} options={{title: 'Tela Home'}}/>
     </Pilha.Navigator>
-  
     </NavigationContainer>
   )
 }
